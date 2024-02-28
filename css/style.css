@@ -1,0 +1,179 @@
+/* html{
+    width: 100vw;
+    height:100vh;
+} */
+*{
+    /* outline: 1px solid red;  */
+    background: rgb(7, 4, 19);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo_alura{
+    display:inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+.container{
+    display:flex;
+   
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 5px solid green; */
+    position: relative;
+    width:100%;
+   
+   
+  
+   
+}
+
+
+.input_text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 140px;
+    margin-top: 168px;
+    width: 55%;
+    
+ 
+
+}
+
+.input_text textarea{
+    width: 680px;
+    height: 48px;
+    color: aliceblue;
+ 
+
+}
+
+
+.button{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    width:680px;
+    height:67px;
+    margin-left: 140px;
+    margin-top: 60%;
+    margin-bottom: 3rem;
+
+     
+
+}    .botao {
+    width:340px;
+    height: 65px;
+    border-radius:16px ;
+    color: aliceblue;
+}
+.alert{
+     display: flex;
+    justify-content:space-between ;
+    align-items: center; 
+    position: absolute;
+    margin-left: 240px;
+     margin-top: 980px;
+}
+.container_lateral{
+    position:absolute;
+    margin-left:68%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width:400px;
+    height:878px;
+    border-radius: 32px;
+
+}
+.container_lateral:hover{
+    position:absolute;
+    margin-left:68%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width:400px;
+    height:878px;
+    border-radius: 32px;
+    border: 1px solid yellow;
+    background-color: rgba(14, 13, 13, 0.733);
+}
+.img_lateral{
+    display:flex;
+ 
+
+
+}
+.img_lateral img{
+    width:336px;
+    height:304px;
+    border-radius: 100%;
+     animation: spin 4.5s infinite linear;
+}
+.img_lateral img:hover{
+    width:250px;
+    height:210px;
+    border-radius: 512px;
+   
+    /* transform: rotate(90deg);
+    transform-origin: 10%; */
+}
+
+.text_lateral{
+    width:380px;
+    height: 160px;
+    color: aliceblue;
+
+}
+.text_lateral textarea{
+    width:370px;
+    height: 115px;
+    border-radius: 16px;
+    border: 1px solid yellow;
+    color: aliceblue;
+
+}
+.btn-copiar-lateral{
+    width:340px;
+    height: 65px;
+    border-radius:16px ;
+    border: 1px solid yellow;
+    color: aliceblue;
+    margin-top: 10rem;
+}
+.footer{
+    width:16rem;
+    height: 2rem;
+    color: aqua;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    border-radius: 16px;
+    background-color: rgb(15, 10, 3);
+}
+.footer:hover{
+    width:16rem;
+    height: 2rem;
+    color: rgba(22, 21, 22, 0.664);
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    border-radius: 16px;
+    background-color: rgb(241, 241, 12);
+    border: 1px double rgb(192, 26, 243);
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

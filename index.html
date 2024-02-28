@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Challenge / encriptador de texto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="logo_alura">
+      <img src="assets/Frame 6.png" alt="logo com letra A ">
+    </div>
+    <main class="container">
+        <!-- <section> -->
+              <div class="input_text">
+            <!-- <input type="text" placeholder="Digite Seu texto Aqui" > -->
+            <textarea id="entrada" class="" placeholder="Apenas Letras minusculas e sem acento"></textarea>
+        </div>
+        <div class="alert">
+            <img src="assets/Frame 1.png" alt="frase_advertencia">
+            <label for="alert">Apenas Letras Minusculas e sem Acento</label>
+        </div>
+        <div class="button">
+       
+            <button onclick="cripto()" id="criptografar" class="botao"> Criptografar </button>
+            <button onclick="descriptografar()" id="descriptografar" class="botao"> Descriptografar </button>
+        </div>
+        <!-- </section> -->
+   
+    <section class="container_lateral">
+        <div class="img_lateral">
+            <img src="assets/cloud-3865312_640.jpg" alt="">
+        </div>
+        <div class="text_lateral">
+            <textarea id="msgcripto" class="mensagem__lateral">Nenhuma Mensagem Encontrada</textarea>
+            
+        </div>
+        <button onclick="copy()" class="btn-copiar-lateral">Copiar</button>
+        <footer class="footer">&copy;Desenvolvido By Igor Moraes</footer>
+    </section>   
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
